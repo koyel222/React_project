@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container{
+  /* width: 100vw;    */
+  max-width: 1370px;
+  min-height: 100vh;
+  background: #f4f5fb;
+  transition: 0.6s;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dark{
+  background: #222;
+}

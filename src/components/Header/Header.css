@@ -1,0 +1,22 @@
+.head{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #222;
+    transition: 0.6s;
+}
+.head-text{
+    font-size: 50px;
+}
+.dark .head {
+    color: #fff;
+}
+
+.head-second{
+    display: flex;
+    /* width: 100%; */
+    gap: 110px;
+}
